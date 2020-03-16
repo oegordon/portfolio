@@ -1,0 +1,102 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+	font-family: "century gothic", sans-serif;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+
+nav li{
+  display:inline;
+  padding-right:20px;
+
+}
+
+nav a{
+  color: black;
+  font-family: "segoe print", sans-serif;
+  font-weight: bold;
+  text-decoration: none; 
+}
+
+nav a:hover{
+  text-decoration: underline;
+}
+
+.skip a{
+  background: white;
+  top: -40px;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+  position: absolute;
+
+  .skip a:focus{
+  background: white;
+  top: 0;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+  position: absolute;
+
+}
+ 
+*:focus{
+  border: 2px solid #000000;}
+
+  nav{
+  background-color: #ddd;
+  padding: 20px 0; 
+  text-align: left;
+  grid-column: 1 / -1;
+  grid-row: 1 / span 1;
+}
+
+/*header*//*{*/
+ /* background-attachment: fixed; /* Parallax effect */     
+ /* background-position: center; */ /* Parallax effect */
+ /* background-repeat: no-repeat;*/ /* Parallax effect */
+/*  background-size: cover; */      /* Parallax effect */
+  /*color: white;*/
+ /* height: 400px; */              /* Parallax effect */
+
+  /* Your code here */
+  /* Set background-image to header.jpg in the images folder */
+  /* Span one row */
+/*  background-image: url("../images/indiana-dunes.jpg");
+*//*  grid-column: 1 / -1;
+  grid-row: 2 / span 1;*/
+/*}*/
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 30px auto auto 100px;
+  grid-row-gap: 15px;
+  }
+
+.olivia{
+  /*Your code here, share same column */
+  /* See documentation for mobile view */
+  grid-column: 3 / span 1;
+
+}
+
+.olivia-image{
+   /*Your code here */
+   /* See documentation for mobile view */
+   grid-column: 1 / span 1;
+   max-height: 300px;
+   overflow: hidden;
+}
+
+.olivia, .olivia-image{
+  /*Your code here */
+  /* See documentation for mobile view */
+  grid-row: 3 / span 1;
+}
