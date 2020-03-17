@@ -94,14 +94,20 @@ background-image: url("../images/indiana-dunes.jpg");
 .olivia-image{
    grid-column: 1 / span 2;	
    width: 95%;
-   margin: 0 auto;
-   display: block;
-/*   object-fit: cover;
-*/   overflow: hidden;
+   /*height: 100%;*/
+   /*justify-self: center;*/
+   /*margin: 0 auto;
+   display: block;*/
+   /*object-fit: cover;*/
+   overflow: hidden;
 }
+
+
 
 .olivia, .olivia-image{
   /*Your code here */
   /* See documentation for mobile view */
   grid-row: 3 / span 1;
+  width: 95%;
+  /*height: 100%;*/
 }
