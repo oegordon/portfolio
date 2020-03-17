@@ -9,6 +9,7 @@ body{
 }
 
 
+
 nav li{
   display:inline;
   padding-right:20px;
@@ -35,6 +36,8 @@ nav a:hover{
   z-index: 1;
   position: absolute;
 
+}
+
   .skip a:focus{
   background: white;
   top: 0;
@@ -57,7 +60,7 @@ nav a:hover{
   grid-row: 1 / span 1;
 }
 
-/*header*//*{*/
+header{
  /* background-attachment: fixed; /* Parallax effect */     
  /* background-position: center; */ /* Parallax effect */
  /* background-repeat: no-repeat;*/ /* Parallax effect */
@@ -68,30 +71,35 @@ nav a:hover{
   /* Your code here */
   /* Set background-image to header.jpg in the images folder */
   /* Span one row */
-/*  background-image: url("../images/indiana-dunes.jpg");
-*//*  grid-column: 1 / -1;
-  grid-row: 2 / span 1;*/
-/*}*/
+background-image: url("../images/indiana-dunes.jpg");
+  grid-column: 1 / -1;
+  grid-row: 2 / span 1;
+}
+
 
 .container{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 30px auto auto 100px;
-  grid-row-gap: 15px;
+  grid-template-columns: 100px 400px 400px 100px;
+  grid-template-rows: repeat(1, 1fr);
+  grid-row-gap: 10px;
   }
 
 .olivia{
   /*Your code here, share same column */
   /* See documentation for mobile view */
-  grid-column: 3 / span 1;
+  grid-column: 3 / span 2;
 
 }
 
 .olivia-image{
    /*Your code here */
    /* See documentation for mobile view */
-   grid-column: 1 / span 1;
-   max-height: 300px;
+   grid-column: 1 / span 2;
+   max-height: 100%;
+   max-width: 100%;
+   margin: 0 auto;
+   display: block;
+   /*object-fit: cover;*/
    overflow: hidden;
 }
 
