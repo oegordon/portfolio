@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
-  <title>Resume</title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160844915-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160844915-1"></script>
+ <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', 'UA-160844915-1');
-  </script>
+  gtag('config', 'UA-160844915-1');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+<title>Resume</title>
 </head>
 <body>
   <main>
@@ -34,10 +34,30 @@
         <br/>
       human-centered design & business strategist</h2>
     </div>
-  </main>
-  <footer>
-    <p>University of Michigan School of Information <br/>
-    &copy; Olivia Gordon 2020</p> </footer>
-  </body>
-  </html>
-  
+    <form action="https://formspree.io/xdodddng" method="POST">
+      <fieldset>
+        <legend>Questions? Reach Out!</legend>
+       <div class = "contact">
+        <label for ="first">First Name:</label>
+        <input type="text" id ="first" name="fname"/> 
+
+        <label for ="last">Last Name:</label>
+        <input type="text" id ="last" name="lname"/> 
+ 
+
+        <label for ="email">Email:</label>
+        <input type="email" id="email" name ="pw"/> 
+
+      </div>
+      
+    <div>
+      <input type="Submit"/>
+    </div>
+  </fieldset>
+</form>
+</main>
+<footer>
+  <p>University of Michigan School of Information <br/>
+  &copy; Olivia Gordon 2020</p> </footer>
+</body>
+</html>
