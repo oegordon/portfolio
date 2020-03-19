@@ -104,60 +104,60 @@ nav a.active{
     background-size: cover;        
     color: #363636;
     text-shadow: 2px 4px 3px #ABABAB;
-  height: 275px;              
-  background-image: url("../images/indiana-dunes.jpg");
-  grid-column: 1 / -1;
-  grid-row: 2 / span 1;
-}
+    height: 275px;              
+    background-image: url("../images/indiana-dunes.jpg");
+    grid-column: 1 / -1;
+    grid-row: 2 / span 1;
+  }
 
-footer{
-  background-color: #597791;
-  color: white;
-  padding: 15px;
-  text-align: center;
-}
+  footer{
+    background-color: #597791;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
 
-.playlist{
-  padding-left: 45px;
+  /*.playlist{
+    padding-left: 45px;*/
 
-}
+  }
 
-.container{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(1, 1fr);
-  grid-row-gap: 2px;
-}
+  .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    grid-row-gap: 2px;
+  }
 
-.olivia{
- 
-  grid-column: 1 / -1;
-  grid-row: 4 / span 2;
-  width: 100%;
+  .olivia{
 
-}
+    grid-column: 1 / -1;
+    grid-row: 4 / span 2;
+    width: 100%;
 
-.olivia-image{
-  grid-row: 3 / span 1;
-  
-}
+  }
 
-.olivia-image{
- grid-column: 1 / -1;	
- width: 100%;
- height: 100%;
- justify-self: center;
- margin: 0 auto;
- display: block;
- overflow: hidden;
-}
+  .olivia-image{
+    grid-row: 3 / span 1;
 
-.olivia-image >img{
-	width: 100%
-}
+  }
+
+  .olivia-image{
+   grid-column: 1 / -1;	
+   width: 100%;
+   height: 100%;
+   justify-self: center;
+   margin: 0 auto;
+   display: block;
+   overflow: hidden;
+ }
+
+ .olivia-image >img{
+   width: 100%
+ }
 
 
-.flex_container{
+ .flex_container{
   display: flex;
   flex-direction: column;
   align-items: center; 
@@ -180,13 +180,13 @@ footer{
 
 .photography-image{
   grid-column: 1 / span 1; 
-   width: 100%;
-   height: 100%;
-   justify-self: center;
-   margin: 0 auto;
-   display: block;
-   overflow: hidden;
- }
+  width: 100%;
+  height: 100%;
+  justify-self: center;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+}
 
 .photography_container >.photography-image > img{
   width: 100%;
@@ -248,41 +248,41 @@ form{
   padding-right: 50px;
 }
 fieldset{
-   border-radius: 5px;
+ border-radius: 5px;
 }
 legend{
-   text-align: center;
-   font-family: "segoe print", cursive;
-   font-variant-caps: small-caps; 
+ text-align: center;
+ font-family: "segoe print", cursive;
+ font-variant-caps: small-caps; 
 }
 fieldset div{
-   border: 1.5px dashed #90A6BB;
-   margin: 0;
-   padding: 5px;
-   border-radius: 5px;
+ border: 1.5px dashed #90A6BB;
+ margin: 0;
+ padding: 5px;
+ border-radius: 5px;
 }
 
 
 .contact{
-   display: grid;
+ display: grid;
 
 }
 
 {
-   border: 1px solid #90A6BB;
-   width: 50px;
-   padding: 5px;
-   margin-left: 100px;
-   -webkit-box-sizing: content-box;
-   -moz-box-sizing: content-box;
-   box-sizing: content-box;
+ border: 1px solid #90A6BB;
+ width: 50px;
+ padding: 5px;
+ margin-left: 100px;
+ -webkit-box-sizing: content-box;
+ -moz-box-sizing: content-box;
+ box-sizing: content-box;
 }
 input, textarea, select{
-   background-color:#FFFFFF;
-   width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+ background-color:#FFFFFF;
+ width: 100px;
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
 }
 
 @media all and (min-width: 768px){
@@ -333,7 +333,6 @@ h3 {
 }
 p {
   padding-left: 15px;
-  padding-right: 25px;
 }
 
 .flex_container{
@@ -351,12 +350,12 @@ p {
 
 .photography_container{
  display: grid;
-    grid-row-gap: 5px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr auto auto auto auto auto;
-    grid-column-gap: 5px;
-    padding-bottom: 10px;
-  }
+ grid-row-gap: 5px;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr auto auto auto auto auto;
+ grid-column-gap: 5px;
+ padding-bottom: 10px;
+}
 
 .photography_container .photography-image:hover{
   background-color: rgba(23, 169, 238, 0.5);
@@ -438,7 +437,7 @@ header{
     grid-template-rows: repeat(1, 1fr);
   }
   .olivia{
-    
+
     grid-column: 2 / -1;
     grid-row: 3 / span 1;
     width: 100%;
@@ -446,7 +445,7 @@ header{
   }
 
   .olivia-image{
-    
+
     grid-row: 3 / span 1;
 
   }
@@ -470,9 +469,9 @@ header{
 
 .flex_container{
   flex-direction: row;
- list-style: none;
-padding-left: 25px;
-padding-right: 25px;
+  list-style: none;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .flex_button a{
@@ -480,13 +479,11 @@ padding-right: 25px;
 }
 
 h3 {
-  font-size: 22px;
-  padding-left: 50px;
+ padding-left: 15px;
 }
 p {
-  padding-left: 50px;
-  padding-right: 200px;
-  font-size: 20px;
+  padding-left: 15px;
+  
 }
 
 header{
@@ -497,7 +494,7 @@ header{
   color: #363636;
   height: 400px;              
 
- 
+
   background-image: url("../images/indiana-dunes.jpg");
   grid-column: 1 / -1;
   grid-row: 2 / span 1;
@@ -506,7 +503,7 @@ header{
 
 @media screen and (prefers-reduced-motion: reduce){
   html{
-      scroll-behavior: auto; /
+    scroll-behavior: auto; /
   }
 
   .skip a{
